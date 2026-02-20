@@ -1,16 +1,93 @@
-# React + Vite
+# Mrunal Meshram - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built with React and Vite.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[View Live Portfolio](https://mrunal77.github.io/portfolio/)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive design for all devices
+- Modern dark theme with gradient accents
+- Smooth scrolling navigation
+- Mobile-friendly hamburger menu
+- Animated profile avatar
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** - UI framework
+- **Vite** - Build tool
+- **CSS3** - Styling with CSS variables
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/mrunal77/portfolio.git
+
+# Navigate to project directory
+cd portfolio
+
+# Install dependencies
+npm install
+```
+
+### Development
+
+```bash
+# Start development server
+npm run dev
+```
+
+### Build
+
+```bash
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+### Deploy to GitHub Pages
+
+```bash
+npm run deploy
+```
+
+## Project Structure
+
+```
+portfolio/
+├── src/
+│   ├── App.jsx       # Main application component
+│   ├── App.css       # Main stylesheet
+│   ├── index.css     # Global styles
+│   └── main.jsx     # Entry point
+├── public/           # Static assets
+├── index.html       # HTML template
+├── vite.config.js   # Vite configuration
+└── package.json     # Dependencies
+```
+
+## Customization
+
+Edit the `biodata` object in `src/App.jsx` to update:
+
+- Name and title
+- About description
+- Contact information
+- Skills list
+- Social media links
+
+## License
+
+MIT License
