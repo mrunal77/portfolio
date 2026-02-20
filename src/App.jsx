@@ -13,9 +13,9 @@ function App() {
     location: "Nagpur, Maharashtra, India",
     skills: ["React", "JavaScript", "Node.js", "Python", "SQL", "Git", "AWS", "Docker"],
     social: {
-      linkedin: "https://linkedin.com/in/mrunalmeshram",
-      github: "https://github.com/mrunalmeshram",
-      twitter: "https://twitter.com/mrunalmeshram"
+      linkedin: "https://linkedin.com/in/mrunal7794",
+      github: "https://github.com/mrunal77",
+      twitter: "https://twitter.com/mrunal7794"
     }
   };
 
